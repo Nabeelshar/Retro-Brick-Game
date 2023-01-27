@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Retro-Brick-Game/static/css/main.375a7305.css",
+    "main.js": "/Retro-Brick-Game/static/js/main.6b29f96e.js",
+    "index.html": "/Retro-Brick-Game/index.html",
+    "main.375a7305.css.map": "/Retro-Brick-Game/static/css/main.375a7305.css.map",
+    "main.6b29f96e.js.map": "/Retro-Brick-Game/static/js/main.6b29f96e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.375a7305.css",
+    "static/js/main.6b29f96e.js"
+  ]
+}
