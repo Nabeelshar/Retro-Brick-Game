@@ -1,62 +1,59 @@
-## 用React、Redux做经典的方块游戏
+## Use React and Redux to make classic cube games
 
 ----
-本项目灵感来源于 React 版的[俄罗斯方块](https://github.com/chvin/react-tetris),本项目全部用React函数式组件重构，使用Hook模拟生命周期,状态用redux调度
+This project is inspired by the React version of [Tetris] (https://github.com/chvin/react-tetris). This project is completely refactored with React functional components, using Hook to simulate the life cycle, and the state is scheduled with redux
 
-戳：[https://quekaihua.github.io/brick-game/](https://quekaihua.github.io/brick-game/) 玩一玩！
+Poke: [https://quekaihua.github.io/brick-game/](https://quekaihua.github.io/brick-game/) Play it!
 
 ----
-### 效果预览
-![效果预览](https://img.alicdn.com/tps/TB1Ag7CNXXXXXaoXXXXXXXXXXXX-320-483.gif)
+### Effect preview
+![Effect Preview](https://img.alicdn.com/tps/TB1Ag7CNXXXXXaoXXXXXXXXXXXX-320-483.gif)
 
-正常速度的录制，体验流畅。
+Recording at normal speed, the experience is smooth.
 
-### 坦克大战
+### Tank Battle
 ![tank](./src/resource/image/tank.gif)
 
-### 赛车游戏
+### Racing Games
 ![racing](./src/resource/image/racing.gif)
 
-### 射击游戏
+### shooting game
 ![shooting](./src/resource/image/fighting.gif)
 
-### 贪吃蛇
+### Snake
 ![snake](./src/resource/image/snake.gif)
 
-### 弹珠游戏
+### Marble Game
 ![breakout](./src/resource/image/breakout.gif)
 
-### 响应式
-![响应式](https://img.alicdn.com/tps/TB1AdjZNXXXXXcCapXXXXXXXXXX-480-343.gif)
+### Responsive
+![Responsive](https://img.alicdn.com/tps/TB1AdjZNXXXXXcCapXXXXXXXXXX-480-343.gif)
 
-不仅指屏幕的自适应，而是`在PC使用键盘、在手机使用手指的响应式操作`：
+Not only refers to the adaptive screen, but `responsive operation using the keyboard on the PC and using the fingers on the mobile phone`:
 
-![手机](https://img.alicdn.com/tps/TB1kvJyOVXXXXbhaFXXXXXXXXXX-320-555.gif)
+![Mobile phone](https://img.alicdn.com/tps/TB1kvJyOVXXXXbhaFXXXXXXXXXX-320-555.gif)
 
 
-### Redux 状态预览（[Redux DevTools extension](https://github.com/zalmoxisus/redux-devtools-extension)）
-![Redux状态预览](https://img.alicdn.com/tps/TB1hGQqNXXXXXX3XFXXXXXXXXXX-640-381.gif)
+### Redux state preview ([Redux DevTools extension](https://github.com/zalmoxisus/redux-devtools-extension))
+![Redux Status Preview](https://img.alicdn.com/tps/TB1hGQqNXXXXXX3XFXXXXXXXXXX-640-381.gif)
 
-Redux设计管理了所有应存的状态。
+Redux design manages all the state that should be stored.
 
 
 ----
-## 开发
-### 安装
+## development
+### Install
 ```
 npm install
 ```
-### 运行
+### run
 ```
 npm start
 ```
-浏览自动打开 [http://127.0.0.1:3000/](http://127.0.0.1:3000/)
-### 打包编译
+Browse automatically open [http://127.0.0.1:3000/](http://127.0.0.1:3000/)
+### Package compilation
 ```
 npm run build
 ```
 
-在build文件夹下生成结果。
-
-
-
+The result is generated under the build folder.
