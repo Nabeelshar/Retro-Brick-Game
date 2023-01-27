@@ -3,7 +3,7 @@
 ----
 This project is inspired by the React version of [Tetris] (https://github.com/chvin/react-tetris). This project is completely refactored with React functional components, using Hook to simulate the life cycle, and the state is scheduled with redux
 
-Poke: [https://quekaihua.github.io/brick-game/](https://quekaihua.github.io/brick-game/) Play it!
+Poke: [https://nabeelshar.github.io/Retro-Brick-Game/](https://nabeelshar.github.io/Retro-Brick-Game/) Play it!
 
 ----
 ### Effect preview
